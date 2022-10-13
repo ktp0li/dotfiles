@@ -1,0 +1,150 @@
+* {
+	font-size: 14px;
+	font-family: Terminus, Siji;
+  border: none;
+	border-radius: 0;
+	min-height: 0;
+	margin: 0;
+	padding: 0;
+}
+@define-color fg #f5e0dc;
+@define-color bg #181825;
+@define-color bgd #11111b;
+@define-color vol #e28c8c;
+@define-color mem #EADDA0;
+@define-color bat #89b4fa;
+@define-color batch #ABE9B3;
+@define-color net #C6AAE8;
+@define-color disk #a4b9ef;
+@define-color light #f7c196;
+@define-color loc #9399b2;
+@define-color ws #fab387;
+
+window#waybar {
+	background: @bgd;
+	color: @fg;
+  background: transparent;
+}
+#custom-right-arrow-light,
+#custom-left-arrow-light,
+#custom-right-arrow-light-tr,
+#custom-left-arrow-light-tr,
+#custom-right-arrow-dark,
+#custom-left-arrow-dark,
+#custom-right-arrow-dark-tr {
+  font-size: 20px;
+} 
+
+#custom-right-arrow-light,
+#custom-left-arrow-light {
+	color: @bg;
+  background: @bgd;
+}
+
+#custom-right-arrow-light-tr,
+#custom-left-arrow-light-tr {
+	color: @bg;
+}
+
+#custom-right-arrow-dark,
+#custom-left-arrow-dark {
+	color: @bgd;
+  background: @bg;
+}
+
+#custom-right-arrow-dark-tr {
+	color: @bgd;
+}
+
+#clock.1,
+#clock.2,
+#clock.3,
+#memory,
+#cpu,
+#battery,
+#disk,
+#tray,
+#keyboard-state,
+#backlight,
+#network,
+#custom-locale {
+	background:@bg;
+}
+
+#workspaces button {
+	padding: 0 2px; 
+	color: @fg;
+}
+#workspaces button.focused {
+	color: #268bd2;
+}
+#workspaces button:hover {
+	box-shadow: inherit;
+	text-shadow: inherit;
+}
+#workspaces button:hover {
+	background: #1a1a1a;
+	border: #1a1a1a;
+} 
+#workspaces .active * {
+  background-color: @bg;
+  color: @ws;
+}
+
+#workspaces {
+  background: @bgd;
+}
+#workspaces * {
+  padding: 0 3px;
+}
+
+ #pulseaudio {
+	color: @vol;
+}
+
+#disk {
+	color: @disk;
+}
+
+#memory {
+  color: @mem;
+}
+
+#battery {
+  color: @bat;
+}
+
+#battery.charging {
+  color: @batch;
+}
+
+#network {
+  color: @net;
+}
+
+#backlight {
+  color: @light;
+}
+
+#custom-locale {
+  color: @loc;
+}
+
+#clock,
+#pulseaudio,
+#memory,
+#cpu,
+#battery,
+#backlight,
+#network,
+#custom-locale,
+#disk {
+	padding: 0 10px;
+  background: @bg; 
+}
+
+#keyboard-state label.locked {
+	padding: 0 10px;
+  background: @vol;
+  color: @bgd;
+}

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/poli/Downloads/wp.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#090F12",
+        "foreground": "#d1cccf",
+        "cursor": "#d1cccf"
+    },
+    "colors": {
+        "color0": "#161616",
+        "color1": "#e28c8c",
+        "color2": "#b3e1a3",
+        "color3": "#f7c196",
+        "color4": "#a4b9ef",
+        "color5": "#C6AAE8",
+        "color6": "#6E6C7C",
+        "color7": "#D7DAE0",
+        "color8": "#3E4058",
+        "color9": "#ECBFBD",
+        "color10": "#C2E7F0",
+        "color11": "#EADDA0",
+        "color12": "#a4b9ef",
+        "color13": "#C6AAE8",
+        "color14": "#6E6C7C",
+        "color15": "#d4d4d4"
+    }
+}

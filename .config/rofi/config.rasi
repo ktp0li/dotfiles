@@ -1,0 +1,7 @@
+/* Dark theme. */
+configuration {
+ modi: "drun,run,ssh";
+ show: "drun";
+ drun-display-format: "{name}";
+ }
+@import "~/.cache/wal/colors-rofi-dark"

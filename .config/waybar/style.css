@@ -7,7 +7,7 @@
 	margin: 0;
 	padding: 0;
 }
-@define-color fg #f5e0dc;
+@define-color fg #d1cccf;
 @define-color bg #181825;
 @define-color bgd #11111b;
 @define-color vol #e28c8c;
@@ -32,7 +32,7 @@ window#waybar {
 #custom-right-arrow-dark,
 #custom-left-arrow-dark,
 #custom-right-arrow-dark-tr {
-  font-size: 20px;
+  font-size: 21px;
 } 
 
 #custom-right-arrow-light,
@@ -98,7 +98,7 @@ window#waybar {
   padding: 0 3px;
 }
 
- #pulseaudio {
+/* #pulseaudio {
 	color: @vol;
 }
 
@@ -128,7 +128,7 @@ window#waybar {
 
 #custom-locale {
   color: @loc;
-}
+} */
 
 #clock,
 #pulseaudio,
@@ -140,7 +140,8 @@ window#waybar {
 #custom-locale,
 #disk {
 	padding: 0 10px;
-  background: @bg; 
+  background: @bg;
+  color: @fg;
 }
 
 #keyboard-state label.locked {
